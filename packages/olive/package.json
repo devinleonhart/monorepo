@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo/olive",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+    "tsc": "vue-tsc --build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@monorepo/cedar": "workspace:*",
+    "@monorepo/rosewood": "workspace:*",
+    "@monorepo/wallet": "workspace:*",
+    "vue": "^3.5.13"
+  }
+}
