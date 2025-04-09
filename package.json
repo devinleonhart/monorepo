@@ -10,6 +10,7 @@
     "tsc": "pnpm -r tsc"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.28.1",
     "@typescript-eslint/eslint-plugin": "^8.29.1",
     "@typescript-eslint/parser": "^8.29.1",
     "@vitejs/plugin-vue": "^5.2.3",
